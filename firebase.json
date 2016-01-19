@@ -1,0 +1,15 @@
+{
+  "firebase": "angulario-router",
+  "public": "build",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "rewrites": [
+    {
+      "source": "/milestone1/*",
+      "destination": "/milestone1/index.html"
+    }
+  ]
+}
